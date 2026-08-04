@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Form Pendaftaran</title>
+    </head>
+    <body>
+        <h2>Form Pendaftaran</h2>
+            <form>
+            <tabel border="1">
+            
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+<br><br>
+            <label for="nomer">Nomer HP:</label>
+            <input type="number" required placeholder="Maukkan Angka">
+<br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+<br><br>
+            <label>Password:</label>
+            <input type="password" required placeholder="Masukkan Password"><br>
+<br><br>         
+            <label for="tanggal">Tanggal Lahir:</label>
+            <input type="date" required><br>
+<br><br>
+            <label for="jeniskelamin">Jenis Kelamin:</label>
+            <input type="radio" id="laki" name="jeniskelamin" value="laki-laki" required>Laki-Laki
+            <input type="radio" id="perempuan" name="jeniskelamin" value="perempuan" required>Perempuan<br>
+<br><br>
+            <label>Hobi:</label>
+            <input type="checkbox" id="membaca" name="hobi" value="membaca">Membaca
+            <input type="checkbox" id="membaca" name="hobi" value="memasak">Memasak
+            <input type="checkbox" id="membaca" name="hobi" value="menonton">Menonton
+            <input type="checkbox" id="membaca" name="hobi" value="olahraga">Olahraga
+<br><br>
+            <label for="alamat">Alamat:</label>
+            <textarea placeholder="Masukkan Alamat" required></textarea><br>
+<br><br>
+            <label>Jurusan</label>
+            <select id="jurusan" name="jurusan" required>
+                <option value="">Pilih Jurusan</option>
+                <option value="rpl">RPL</option>
+                <option value="tkj">TKJ</option>
+                <option value="tkr">TKR</option>
+            </select>
+<br><br>
+            <input type="submit" value="Kirim">
+
+            </form>
+    </body>
+</html>
